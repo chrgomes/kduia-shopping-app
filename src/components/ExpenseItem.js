@@ -15,8 +15,7 @@ const ExpenseItem = (props) => {
             payload: item,
         });
     };
-
-
+    
     return (
         <tr>
         <td>{props.name}</td>
